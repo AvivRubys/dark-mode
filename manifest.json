@@ -1,0 +1,14 @@
+{
+    "name": "Dark Mode",
+    "version": "0.0.1",
+    "description": "Enables lena to use the web",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Toggle dark mode!"
+    },
+    "permissions": ["https://*/*", "http://*/*", "tabs"],
+    "manifest_version": 2
+}
